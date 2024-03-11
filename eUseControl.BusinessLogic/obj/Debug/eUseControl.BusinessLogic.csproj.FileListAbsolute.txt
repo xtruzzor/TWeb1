@@ -1,0 +1,11 @@
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.pdb
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.dll
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.dll
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.pdb
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.pdb
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.AssemblyReference.cache
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.CopyComplete
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.dll
+D:\Project Visual Studio\Tweb\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.pdb

@@ -1,0 +1,40 @@
+﻿@model eUseControl.Web.Models.UserData
+
+
+<table class="column" style="width: 100%;">
+
+
+
+    @foreach (var prod in Model.Products)
+    {
+
+        <td class="column">
+           
+                <img class="img-list" src="@prod.ImageUrl"/>
+           
+
+        </td>
+
+
+    }
+    <tr>
+
+      @using (Ajax.BeginForm("Product", "Home", new AjaxOptions { HttpMethod = "POST", 
+      OnSuccess = "succes", OnFailure = "fail", UpdateTargetId = "resultTarget"}))
+
+    
+        {
+
+            foreach (var prod in Model.Products)
+            {
+            
+                <td class="column">
+                    @Html.Hidden("btn", prod)
+                    <button class="button" name="btn">BUY</button>
+                </td>
+          
+        }
+
+    } 
+    </tr>
+    </table>

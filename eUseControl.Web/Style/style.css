@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Anta", sans-serif;
+}
+
+
+.header { 
+    background-image: url(../img/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container { 
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 0;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header-line { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    margin-bottom: 45px;
+}
+
+
+
+
+.search-box{ 
+    display: flex;
+    align-items: center;
+    background-color: rgb(93, 91, 91);
+    height: 20px;
+    width: 500px;
+    border-radius: 40px;
+    padding: 10px;
+    
+
+
+}
+
+.search-btn { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f15900;
+    width: 40px;
+    height: 40px;
+    
+    
+    text-decoration: none;
+}
+
+.search-txt { 
+    margin-right: 250px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.cart-img{
+    display: flex;
+    margin-right: 25px;
+    text-decoration: none;
+    top: 10px;
+    font-size: 25px;
+    color: white;
+    transition: color 0.3s linear;
+}
+
+.cart-img:hover{
+    color:#f15900;
+
+}
+
+
+.button{
+    background-color: white;
+    color: #333030;
+    text-decoration: none;
+    align-items: center;
+    width: 100px;
+    padding: 10px 13px;
+    font-size: 700;
+    border-radius: 50px;
+    transition: background-color 0.2s linear;
+}
+
+
+
+
+.button:hover{ 
+    background-color: #f15900;
+ 
+}
+
+
+
+.header-down{
+    position: relative;
+  
+    
+}
+
+.header-title{
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 40px;
+    color:#f15900;
+    font-size: 30px;
+    font-weight: 400;  
+    text-align: center;
+
+
+}
+
+.header-suptitle{
+    color:#ffffff;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    color: #f15900;
+    font-size: 25px;
+    padding: 50px 0;
+}
+
+.list-1{
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #f15900;
+    width: 300px;
+}
+
+.column{
+    color: #f15900;
+    font-size: 30px;
+    text-align: center; 
+}
+
+
+.img-list{
+    border-radius:10px;
+    border:1px solid;
+    width:190px;
+    height:250px;
+}

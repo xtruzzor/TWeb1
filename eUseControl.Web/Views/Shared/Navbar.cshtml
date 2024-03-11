@@ -1,0 +1,27 @@
+﻿@model eUseControl.Web.Models.UserData
+
+<div class="header-logo">
+    <img width="140px" height="35px" src="~/img/logo.png" alt="">
+</div>
+
+<div class="search-box">
+    <input type="text" class="search-txt" placeholder="Search">
+    <a href="#" class="search-btn"><i class="bi bi-search"></i></a>
+</div>
+
+<div class="items">
+    <div class="cart">
+        <a href="#">
+            <i class="bi bi-cart-check-fill cart-img"></i>
+        </a>
+    </div>
+
+    <div class="btn">
+        <link class="profil-link">
+            <a href="#" class="list">
+                <span class="profile-address">@Html.DisplayFor(u => u.Username)</span>
+            </a>
+        </link>
+        <!-- <a class="button" href="#">SIGN IN</a> -->
+        </div>
+    </div>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="~/Style/style.css">
+
+    <script src="~/Java/js.js"></script>
+
+
+
+    <title>L&O STORE</title>
+</head>
+<body>
+
+    <div class="header"  src="~/img/bg.png">
+        <div class="container">
+
+            <div class="header-line">
+                @Html.Partial("Navbar")
+            </div>
+
+            <div class="header-down">
+                @Html.Partial("Header")
+            </div>
+
+            <div class="list">
+                @Html.Partial("List")
+                
+            </div>
+
+            <div class="column">
+                @Html.Partial("ListProducts")
+            </div>
+
+        </div>
+        </div>
+</body>
+</html>
