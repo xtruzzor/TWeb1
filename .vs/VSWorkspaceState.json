@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\eUseControl.Web",
-    "\\eUseControl.Web\\Controllers"
+    "\\eUseControl.Web\\Controllers",
+    "\\eUseControl.Web\\Models"
   ],
-  "SelectedNode": "\\eUseControl.Web\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\eUseControl.Web\\Models\\UserData.cs",
   "PreviewInSolutionExplorer": false
 }
