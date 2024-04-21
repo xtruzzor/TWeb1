@@ -14,7 +14,7 @@ namespace eUseControl.Web.Controllers
         {
 
             UserData u = new UserData();
-            u.Username = "UserName";
+            u.Username = "Liviu";
             u.Products = new List<Product>
             {
                 new Product { Name = "Product #1", ImageUrl = "/img/game1.png" },

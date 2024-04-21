@@ -3,13 +3,35 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S&O</title>
+    <title>L&O</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
     @RenderBody()
+    <div class="header" src="~/img/bg.png">
+        <div class="container">
+
+            <div class="header-line">
+                @Html.Partial("Navbar")
+            </div>
+
+            <div class="header-down">
+                @Html.Partial("Header")
+            </div>
+
+            <div class="list">
+                @Html.Partial("List")
+
+            </div>
+
+            <div class="column">
+                @Html.Partial("ListProducts")
+            </div>
+
+        </div>
+    </div>
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>

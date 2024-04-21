@@ -5,6 +5,6 @@
     "\\eUseControl.Web\\Controllers",
     "\\eUseControl.Web\\Models"
   ],
-  "SelectedNode": "\\eUseControl.Web\\Models\\UserData.cs",
+  "SelectedNode": "\\eUseControl.Web\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
